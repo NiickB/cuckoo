@@ -130,10 +130,7 @@ Any other kind of memory would not make a lot of sense, as technologies are not 
 but are often subject to change.
 
 Setting up XEN/Lib VMI on your computer
-=======================================
-
-XEN
----
+---------------------------------------
 In this chapter we will explain how we succeeded in setting up XEN on our computer (laptop). 
 We installed XEN on Ubuntu, but it is also possible to install XEN on other Linux environments. 
 For now, we will explain how we set up XEN 64 bit hypervisor on Ubuntu. 
@@ -239,8 +236,6 @@ In Debian jessie, please use 'qemu-xen' rather than 'qemu-xen-traditional'.
    
 7) Reconnect to the VNC and the Installation should be finished.
 
-Lib VMI
--------
 To monitor the virtual machine that runs XEN, we are using LibVMII. 
 LibVMI is a Virtual Machine Introspection which, of course,  can monitor virtual machines running on XEN. 
 To install LibVMI you have to take the following steps:
@@ -307,7 +302,7 @@ If some libraries are missing, install these libraries by putting in the command
 .. _`Lib VMI Github`: https://github.com/libvmi/libvmi
 
 Source list
-=======================================
+-----------
 https://nl.wikipedia.org/wiki/Xen
 
 http://wiki.xen.org/wiki/Xen_Project_Software_Overview
