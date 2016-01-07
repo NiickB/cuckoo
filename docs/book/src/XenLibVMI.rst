@@ -1,11 +1,7 @@
-======================================================================================
-Document Cuckoo VMI, XEN. Made by Cuckoo VMI project group HvA (Nick, Rob, Tom, Tomas)
-======================================================================================
-
 XEN Hypervisor
 --------------
 
-Within the project we are going to use XEN to ensure that Cuckoo Sandbox 
+We used XEN to ensure that Cuckoo Sandbox 
 cannot be detected as a malware analysis software anymore. 
 This means there has to be a ‘layer’ (XEN) around the Cuckoo Sandbox which 
 ensures Cuckoo Sandbox cannot be detected by malware anymore, when analyzing malware. 
@@ -79,7 +75,7 @@ After this we made a small program to show the Proof of Concept, called magick.e
 Magick.exe
 ----------
 Magick.exe is a executable made by us. This makes it handy for us to use the proof of concept in a fast way.
-The code that the executable contains is::
+The code that the executable contains is:
 
 #include <stdio.h>
 
@@ -148,6 +144,7 @@ Installing XEN over WiFi will lead into more complications.
    With Ubuntu 14.04, GRUB will automatically choose to boot Xen first if Xen is installed. 
    GRand Unified Bootloader) is a boot loader package. 
    If you're running a version of Ubuntu before 14.04, you'll have to modify GRUB to default booting to Xen. 
+   
 2) Now reboot with the command line:: 
 	
 	$ sudo reboot
